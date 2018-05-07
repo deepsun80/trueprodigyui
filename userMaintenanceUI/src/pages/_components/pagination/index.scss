@@ -1,0 +1,51 @@
+.btn-pagination {
+  background-color: transparent;
+  box-shadow: none;
+}
+.pagination-container {
+  padding: 10px;
+  display: flex;
+  .btn {
+    box-shadow: none;
+  }
+  .page-active {
+    background-color: #069dd8;
+    border-color: #069dd8;
+    border-radius: 5px;
+    a {
+      color: white;
+    }
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-right: 5px;
+      a {
+        padding: 0 10px;
+      }
+    }
+    .break {
+      padding: 0 10px;
+    }
+    .disabled {
+      a {
+        color: #ccc;
+      }
+    }
+  }
+  .input-container {
+    width: 200px;
+    margin-left: 50px;
+    display: flex;
+    span {
+      width: 100px;
+      display: inline-block;
+      margin-left: 10px;
+      line-height: 30px;
+    }
+  }
+}

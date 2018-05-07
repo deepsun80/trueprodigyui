@@ -1,0 +1,85 @@
+.headerStyle {
+    font-weight: 700;
+    background: #fff;
+    padding: 5px;
+    border-bottom: 0px !important;
+    margin-bottom: 0px;
+}
+
+.ag-fresh {
+    height: 180px !important;
+    width: 97%;
+    margin: auto;
+    margin-bottom: 0px;
+    .ag-root {
+        border-color: transparent;
+      }
+      .ag-grid {
+        border-color: #fff;
+      }
+      .ag-header-cell {
+        border: .02px solid #ccc !important;       
+        background-color: #f7f7f9;
+        text-align: left;
+        padding-left: 5px !important;
+        padding-top: 3px;
+      }
+      .ag-row-odd {
+        background-color: #f5f9fd;
+        padding-left: 15px !important;
+      }
+      .ag-header {
+        font-weight: 600;
+        color: #55636A;
+        font-size: 13px;
+      }
+      .ag-cell {
+        padding-left: 5px !important;
+        border-bottom: .05px solid #ccc;
+        border: .02px solid #ccc !important;       
+      }
+      .ag-ltr {
+        .ag-cell-no-focus {
+          border-bottom: 0.5px solid #ccc;
+        }
+    }
+}
+
+.header {
+  float: left;
+  color: #6E6E6E;
+  margin-right: 50px;
+  padding-top: 5px;
+}
+
+.field-style {
+  width: 300px;
+  float: left;
+  margin-top: 2px;
+}
+
+.button {
+    line-height: 30px;
+    padding: 0 15px;
+    color: #fff;
+    margin-left: 15px;
+    display: inline;
+}
+
+.modal-header {
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+  padding-left: 60px;
+}
+
+.modal-field {
+  width: 300px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,41 @@
+.master-control-container {
+  position: relative;
+
+  .title-container {
+    width: 100%;
+    height: 100%;
+  }
+  .master-control-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 350px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 99;
+    background-color: white;
+    .master-control-item {
+      display: flex;
+      height: 30px;
+
+      & + .master-control-item {
+        margin-top: 5px;
+      }
+    }
+    a {
+      color: #069dd8 !important;
+      margin-right: 5px;
+      display: flex;
+      align-items: center;
+      min-width: 100px;
+      flex-shrink: 0;
+      flex-grow: 0;
+      i {
+        margin-right: 5px;
+      }
+      & + div {
+        width: 100%;
+      }
+    }
+  }
+}

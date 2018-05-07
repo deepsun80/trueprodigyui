@@ -1,0 +1,17 @@
+.pdf-bar-loader {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  & > div {
+    width: 100%;
+    & > div {
+      animation-duration: 3s;
+      animation-delay: 1s;
+    }
+  }
+  .pdf-bar-message {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+  }
+}

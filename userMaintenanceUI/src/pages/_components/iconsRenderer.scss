@@ -1,0 +1,12 @@
+.ag-grid-action-container {
+  display: none;
+  i {
+    color: #75828e;
+  }
+}
+
+.ag-row:hover > div > div {
+  & > .ag-grid-action-container {
+    display: block;
+  }
+}

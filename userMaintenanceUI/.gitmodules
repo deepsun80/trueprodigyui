@@ -1,0 +1,3 @@
+[submodule "src/assets/styles"]
+	path = src/assets/styles
+	url = git@github.com:TrueProdigy/commonUI.git

@@ -1,0 +1,14 @@
+
+@import './assets/styles/variables';
+
+@import './assets/styles/lib/bootstrap.min.css';
+@import './assets/styles/lib/bootstrap-extend.min.css';
+@import './assets/styles/lib/site.min.css';
+@import '../node_modules/ag-grid/dist/styles/ag-grid.css';
+@import '../node_modules/ag-grid/dist/styles/theme-fresh.css';
+@import '../node_modules/react-select/dist/react-select.css';
+
+@import './assets/styles/lib/web-icons/web-icons.scss';
+@import './assets/styles/lib/font-awesome/font-awesome.scss';
+
+@import './assets/styles/custom.scss';

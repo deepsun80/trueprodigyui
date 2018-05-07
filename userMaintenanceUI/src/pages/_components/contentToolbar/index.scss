@@ -1,0 +1,31 @@
+.content-toolbar {
+  background-color: #e6f1fa;
+  padding: 3px 25px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.08);
+  min-height: 36px;
+  label {
+    font-size: 12px;
+    width: 100%;
+  }
+  .row {
+    .inline-container {
+      display: flex;
+      align-items: center;
+      label {
+        margin-bottom: 0;
+        margin-right: 5px;
+        width: initial;
+      }
+      .form-control {
+        max-width: 120px;
+      }
+    }
+    .info-block {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      & > div + div {
+        margin-top: 5px;
+      }
+    }
+  }
+}

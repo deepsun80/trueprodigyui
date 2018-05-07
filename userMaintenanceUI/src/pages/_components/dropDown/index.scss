@@ -1,0 +1,15 @@
+@import '../../../../node_modules/react-dropdown/style.css';
+
+.search-filter-field {
+  min-width: 250px;
+}
+
+.search-filter-operator {
+  .Select {
+    width: 110px;
+    margin-right: 20px
+  }
+}
+.search-filter-option {
+  width: 120px;
+}

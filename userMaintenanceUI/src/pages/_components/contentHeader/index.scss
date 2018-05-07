@@ -1,0 +1,21 @@
+.content-header {
+  padding: 5px 25px;
+  font-size: 18px;
+  font-weight: bold;
+
+  .content-header-tools {
+    float: right;
+    padding-top: 3px;
+
+    i {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: white;
+      display: flex;
+      &:before {
+        margin: auto;
+      }
+    }
+  }
+}

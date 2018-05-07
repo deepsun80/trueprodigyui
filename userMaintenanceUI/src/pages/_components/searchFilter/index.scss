@@ -1,0 +1,70 @@
+.search-filter-field {
+  width: 100%;
+  .Select--multi {
+    width: 100%;
+    margin-right: 20px;
+
+    .Select-control,
+    .Select-input {
+      height: 30px;
+    }
+    .Select-placeholder {
+      line-height: 30px;
+    }
+
+    .Select-value {
+      line-height: 16px;
+      font-size: 14px;
+      margin-top: 3px;
+    }
+    .Select-control {
+      height: 30px;
+      .Select-multi-value-wrapper {
+        height: 30px;
+      }
+    }
+    .Select-placeholder
+    .Select--single > .Select-control .Select-value {
+      line-height: 30px;
+    }
+  }
+}
+.search-filter-option {
+  width: 120px;
+  .form-control {
+    & + .form-control {
+      margin-top: 10px;
+    }
+  }
+}
+.between-field {
+  width: 300px;
+  display: flex;
+  border: 1px solid #e3e7e8;
+  & > div {
+    background-color: #f3f6f9;
+    width: 80px;
+    text-align: center;
+    line-height: 30px;
+  }
+}
+.rule-item {
+  display: inline-table;
+  float: left;
+  background-color: #f3f6f9;
+  border: 1px solid #e3e7e8;
+  margin: 0 5px 5px 0;
+  padding: 0 5px;
+  label {
+    margin: 0;
+    white-space: nowrap;
+  }
+}
+
+.filter-rule-wrapper {
+  line-height: 30px;
+  width: 100%;
+  position: relative;
+  padding-right: 20px;
+  display: flex;
+}

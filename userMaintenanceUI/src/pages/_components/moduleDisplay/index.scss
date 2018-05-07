@@ -1,0 +1,27 @@
+.module-display {
+    background-color: #333333;
+    color: white;
+    border: 1px solid transparent;
+    padding-left: 30px;
+    min-height: 110px;
+
+    .module-list {
+        display: flex;
+        justify-content: space-between;        
+    }
+
+    .module-logo {
+        width: 50%;
+        transition: all 50ms ease-in;
+    }
+
+    .module-logo:hover {
+        width: 60%;
+    }
+
+    .module-logo-large {
+        width: 60%;
+        margin-right: 45px;
+        margin-right: 95px;
+    }
+}
